@@ -1,5 +1,13 @@
-# Hello Elementor [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+# Child Theme for Elementor Hello Theme
+```
+cd project/wp-content/themes/
+git clone -b child-theme --single-branch https://github.com/drawcard/elementor-hello-theme elementor-hello-child-theme
+wp theme activate elementor-hello-child-theme
+cd elementor-hello-child-theme
+npm install
+```
 
+# Hello Elementor [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
 
 **Contributors:** [elemntor](https://profiles.wordpress.org/elemntor)  
