@@ -809,7 +809,7 @@ small,
 .text_small {
   font-size: 0.87em; }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1025px) {
   /* Larger type scale for desktop resolution - 1:1.300 */
   .hugetext {
     font-size: 6.275em; }
