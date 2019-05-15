@@ -11,6 +11,3 @@ package-lock.json
 Thumbs.db
 *.log
 *.map
-
-# Include open-color css
-!node_modules/open-color/open-color.css
