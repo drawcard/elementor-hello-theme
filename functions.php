@@ -84,6 +84,13 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_scripts_styles' );
 
+if (! function_exists( 'hello_elementor_child_enqueue_scripts')) {
+	function hello_elementor_child_enqueue_scripts() {
+		wp_enqueue_script( 'hec_script', get_template_directory_uri() . '/theme.js', array( 'jquery' ), null, true );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts' );
+
 /*
  * Register Elementor Locations
  */
