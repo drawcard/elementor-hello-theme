@@ -78,7 +78,6 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 	function hello_elementor_scripts_styles() {
 		$hook_result = apply_filters_deprecated( 'hello_elementor_theme_enqueue_style', [ true ], '2.0', 'hello_elementor_enqueue_style' );
 		if ( apply_filters( 'hello_elementor_enqueue_style', $hook_result ) ) {
-			wp_enqueue_style( 'hec_init_style', get_stylesheet_directory_uri() . '/init.css' );
 			wp_enqueue_style( 'hec_style', get_stylesheet_directory_uri() . '/style.css'  );
 		}
 	}

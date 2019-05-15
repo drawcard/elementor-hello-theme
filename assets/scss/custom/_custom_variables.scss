@@ -4,3 +4,49 @@ any values defined here will take precedence over variables definitions.
 // add your default variable values here.
 //e.g.:
 //$purple:	#cc00ff;
+
+//Media Breakpoints
+$screen-xl: 1140px !default;
+
+//Default Color
+$gray-base: $oc-gray-9;
+$gray-darker: $oc-gray-7;
+$gray-dark: $oc-gray-6;
+$gray: $oc-gray-5;
+$gray-light: $oc-gray-3;
+$gray-lighter: $oc-gray-1;
+
+//Text & Paragraph
+$text-color: $gray-base;
+
+//Fonts
+$font-family-base: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+
+//Main colours
+$blue: $oc-blue-7;
+$purple: $oc-violet-7;
+$pink: $oc-pink-7;
+$green: $oc-green-7;
+$yellow: $oc-yellow-5;
+$red: $oc-red-7;
+
+//Border Radius
+$border-radius: 0px;
+
+//Accent color for buttons, links etc...
+$primary-color: $blue;
+$success-color: $green;
+
+//Links
+$link-color-base: $blue;
+$link-hover-color-base: darken($link-color-base, 15%);
