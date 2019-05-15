@@ -1,0 +1,46 @@
+/**
+ * CSS styles that govern global aspects of the website
+ */
+
+/* Perfect Fourth Type Scaling (1.333) - https://type-scale.com/ */
+
+html {
+    font-size: 16px;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 1rem 0;
+}
+
+h1 {
+    font-size: 4.209em;
+}
+
+h2 {
+    font-size: 3.157em;
+}
+
+h3 {
+    font-size: 2.369em;
+}
+
+h4 {
+    font-size: 1.777em;
+}
+
+h5 {
+    font-size: 1.333em;
+}
+
+small,
+.text_small {
+    font-size: 0.75em;
+}
