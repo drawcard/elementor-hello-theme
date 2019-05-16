@@ -8,5 +8,9 @@ cd elementor-hello-child
 npm install
 # Edit theme SCSS in /assets/custom/
 grunt styles
+# Get prepared to copy over to production
+# optional, removes git versioning data for security purposes
+# Alternatively you can deploy without copying .git across
+rm -rf .git 
 # Copy your theme to production server
 ```
